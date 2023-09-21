@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Focus Music</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="header">
+        <h2 class="logo">Logo</h2>
+        <nav>
+          <a href="">Music</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+        </nav>
+      </div>
+      <div class="center">
+        <div class="blob" id="blob">
+          <img src="./focus_aura_sm.png" alt="" class="blobImg" />
+        </div>
+        <div class="svg-around">
+          <svg>
+            <circle cx="50%" cy="50%" r="13.125rem" class="circle1"></circle>
+            <circle cx="50%" cy="50%" r="17.8125rem" class="circle2"></circle>
+            <circle cx="50%" cy="50%" r="22.5rem" class="circle3"></circle>
+          </svg>
+        </div>
+        <div class="clock">
+          <p class="timer" id="time">00 : 00</p>
+        </div>
+      </div>
+      <div class="audio-stripe">
+        <div></div>
+        <div class="audio-controls">
+          <div class="repeat">
+            <img src="./images/repeat.svg" alt="" />
+          </div>
+          <div class="prev">
+            <img id="prevImg" src="./images/next.svg" alt="" />
+          </div>
+
+          <div id="playPause" class="playPause">
+            <img id="playPauseButton" src="./images/play.svg" alt="" />
+          </div>
+
+          <div class="next">
+            <img src="./images/next.svg" alt="" />
+          </div>
+          <audio
+            src="./music/A Path Forwards Cinematic Focus Deep Work Conor 116bpm_1.1_Nrmlzd2_VBR5.mp3"
+            type="audio/mpeg"
+            id="audioControls"
+          ></audio>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
